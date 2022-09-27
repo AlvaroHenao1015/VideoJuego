@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoGame Page</title>
+    <link rel="icon" href="../assets/icon.JPG">
+    <!-- CSS Links -->
+    <link rel="stylesheet"  href="../css/style.css">
+</head>
+<body>
+    <img class="return" id="retorno" src="../assets/return.png" alt="return">
+    <video controls autoplay id="prototype" src="../assets/prototipo.mp4"></video>
+    <div class="container-1">
+        <header>
+        <h1>blood slayer</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="home">Home</a></li>
+                <li><a href="#" class="about">About us</a></li>
+                <a class="download" href=""><button>Download</button></a>
+                
+            </ul>
+        </nav>
+        <div class="options">
+            <button class="object" id="personajes">CHARACTERS AND ENEMIES</button>
+            <button class="object" id="object">OBJECTS</button>
+            <button class="object" id="rooms">ROOMS</button>
+            <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="SEARCH">
+        </div>
+        <br><br>
+        <article class="description">
+            <p id="description">ALL</p>
+        </article>
+        <div id="personas">
+            <article class="article_1">
+                <div class="person"><img src="../assets/image.jpg" alt="image"></div>
+                <div class="person"><img src="../assets/image.jpg" alt="image"></div>
+                <div class="person"><img src="../assets/image.jpg" alt="image"></div>
+
+            </article>
+            <article class="article_2">
+                <div class="person"><img src="../assets/image.jpg" alt="image"></div>
+                <div class="person"><img src="../assets/image.jpg" alt="image"></div>
+                <div class="person"><img src="../assets/image.jpg" alt="image"></div>
+            </article>
+        </div>
+        <div id="objetos">
+            <article class="article_3">
+                <div class="person objetos"><img src="../assets/bloques/bloque1.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque2.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque3.png" alt="image"></div>
+            </article>
+            <article class="article_4">
+                <div class="person objetos"><img src="../assets/bloques/bloque4.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque5.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque6.png" alt="image"></div>
+            </article>
+            <article class="article_5">
+                <div class="person objetos"><img src="../assets/bloques/bloque7.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque8.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque9.png" alt="image"></div>
+            </article>
+            <article class="article_3">
+                <div class="person objetos"><img src="../assets/bloques/bloque10.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque11.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque12.png" alt="image"></div>
+            </article>
+            <article class="article_4">
+                <div class="person objetos"><img src="../assets/bloques/bloque13.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque14.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque15.png" alt="image"></div>
+            </article>
+            <article class="article_5">
+                <div class="person objetos"><img src="../assets/bloques/bloque16.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque17.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque18.png" alt="image"></div>
+            </article>
+            <article class="article_5">
+                <div class="person objetos"><img src="../assets/bloques/bloque19.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque20.png" alt="image"></div>
+                <div class="person objetos"><img src="../assets/bloques/bloque13.png" alt="image"></div>
+            </article>
+        </div>
+        <div id="salas">
+            <article class="article_6">
+                <div class="person sala"><img src="../assets/salas/sala1.png" alt="image"></div>
+                <div class="person sala"><img src="../assets/salas/sala2.png" alt="image"></div>
+                <div class="person"><img src="../assets/salas/sala3.png" alt="image"></div>
+            </article>
+            <article class="article_7">
+                <div class="person"><img src="../assets/salas/sala4.png" alt="image"></div>
+                <div class="person"><img src="../assets/salas/sala5.png" alt="image"></div>
+                <div class="person"><img src="../assets/salas/sala6.png" alt="image"></div>
+            </article>
+            <article class="article_6">
+                <div class="person"><img src="../assets/salas/sala7.png" alt="image"></div>
+                <div class="person"><img src="../assets/salas/sala8.png" alt="image"></div>
+                <div class="person"><img src="../assets/salas/sala9.png" alt="image"></div>
+            </article>
+            <article class="article_7">
+                <div class="person"><img src="../assets/salas/sala10.png" alt="image"></div>
+                <div class="person"><img src="../assets/salas/sala11.png" alt="image"></div>
+                <div class="person"><img src="../assets/salas/sala12.png" alt="image"></div>
+            </article>
+        </div>
+        
+        <footer>
+        </footer>
+    </div>
+    <div class="container-2">
+        <header>
+            <h1>ABOUT US</h1>
+        </header>
+        <nav>
+            <ul>
+                <li class="home"><a href="index.html" class="home home2">Home</a></li>
+                <li class="about"><a href="#" class="about about2">About us</a></li>
+                <a class="download" href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"><button>Download</button></a>
+                
+            </ul>
+        </nav>
+        <article>
+            <p class="texts">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem ducimus quibusdam id. Deserunt cupiditate saepe esse facere magnam tenetur fuga eveniet, vel a consequuntur ut eaque nulla laborum rem inventore Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio temporibus quae aut laboriosam ratione ut cum, aspernatur provident, quo et assumenda quaerat dolores. Veniam, suscipit. Voluptate eum porro vel non Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea repudiandae aliquam dolorum officia. Voluptatibus quisquam cupiditate dignissimos dolorum aut magni, iure sit, animi quae ipsa, amet numquam corporis. Molestiae quis et assumenda omnis autem temporibus dolores itaque quam esse hic! Non, consequatur natus inventore sit quisquam tempore blanditiis quo officia praesentium veniam beatae assumenda expedita at! Quam provident, sequi quasi nulla aperiam minima eos corrupti molestiae aliquam sit molestias qui sapiente voluptatem, quaerat sed rem impedit! Nemo at saepe modi eligendi ipsa dolores ratione enim aliquam et, laudantium natus laboriosam ab totam sint amet molestias ut iure distinctio, assumenda, eum eaque placeat pariatur porro voluptates. Aut atque nisi ullam veniam quidem praesentium, enim ea, consequuntur architecto quia voluptates ex vel?.
+            </p>
+        </article>
+        article
+        <footer>
+        </footer>
+    </div>
+ 
+    <!-- JS Links -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
